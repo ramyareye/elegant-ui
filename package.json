@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "start": "lerna run start",
-    "web-build": "lerna run build --stream",
-    "web-dev": "lerna run --scope @apps/web dev --stream"
+    "start": "lerna run start",    
+    "web-dev": "lerna run --scope @apps/web dev --stream",
+    "web-build": "lerna run --scope @apps/web build --stream",
+    "web-export": "lerna run --scope @apps/web export --stream"
   },
   "engines": {
     "yarn": ">=1.17.3"
